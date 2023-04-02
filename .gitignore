@@ -1,52 +1,24 @@
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-cypress/downloads
-cypress/screenshots
-cypress/videos
-cypress/reports
-instrumented
-.nyc_output
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-/public/__ENV.js
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# local env files
-.env*.local
+node_modules
+dist
+dist-ssr
+*.local
 
-# vercel
-.vercel
-
-#webstorm idea
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-
-#vscode idea
-.vscode
-
-#yarn berry
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
